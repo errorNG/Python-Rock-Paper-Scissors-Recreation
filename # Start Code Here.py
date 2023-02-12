@@ -11,7 +11,6 @@ rock_priority = 0
 paper_priority = 0
 scissors_priority = 0
 complex_maths_stuff = 0
-final_stretch = False
 while True:
   if behaviour_chosen == False: # Difficulty Selection
     user_action = input("Enter a difficulty (odd, strategy-based):")
@@ -43,8 +42,8 @@ while True:
          scissors_priority = 9
        else:
          if scissors_total >= rock_total and paper_total: # Decides The Probability If You Use Scissors The Most
-           scissors_priority = 3
-           rock_priority = 6
+           scissors_priority = 5
+           rock_priority = 7
            scissors_priority = 9
          else:
            rock_priority = 3 # Decides The Probability If The Game Just Started
