@@ -12,4 +12,4 @@ Then when you open the code in visual studio, click run and then run without deb
 A bug was fixed where it was almost impossible for the strategy bot to use scissors
 
 
-A bug was fixed where the probabilities were mostly even (that was not intended)
+A bug was fixed where the strategy bot's probabilities were mostly even (that was not intended)
