@@ -47,10 +47,10 @@ while True:
            rock_priority = 6
            scissors_priority = 9
          else:
-           rock_priority = 3
+           rock_priority = 3 # Decides The Probability If The Game Just Started
            paper_priority = 3
            scissors_priority = 3
-     complex_maths_stuff = random.randint(1, 9) # Decides The Probability If The Game Just Started
+     complex_maths_stuff = random.randint(1, 9)
      if rock_total >= paper_total and scissors_total:
        if complex_maths_stuff >= 0 and complex_maths_stuff <= 4:
         computer_action = "rock"
