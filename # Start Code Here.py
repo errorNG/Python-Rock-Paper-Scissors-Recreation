@@ -50,31 +50,30 @@ while True:
            rock_priority = 3 # Decides The Probability If The Game Just Started
            paper_priority = 3
            scissors_priority = 3
-     complex_maths_stuff = random.randint(1, 9)
-     if rock_total >= paper_total and scissors_total:
-       if complex_maths_stuff >= 0 and complex_maths_stuff <= 4:
+     complex_maths_stuff = random.randint(1, 9) # The Bot Uses The Probabilities To Make A Decision
+     if rock_total >= paper_total and scissors_total: # Most Likely Rock
+       if complex_maths_stuff >= 0 and complex_maths_stuff <= 5:
         computer_action = "rock"
        else:
-        if complex_maths_stuff >= 3 and complex_maths_stuff <= 8:
+        if complex_maths_stuff >= 4 and complex_maths_stuff <= 8:
          computer_action = "paper"
         else:
          if complex_maths_stuff >= 7 and complex_maths_stuff <=10:
            computer_action = "scissors"
-     if paper_total >= rock_total and scissors_total:
-       if complex_maths_stuff >= 0 and complex_maths_stuff <= 4:
+     if paper_total >= rock_total and scissors_total: # Most Likely Paper
+       if complex_maths_stuff >= 0 and complex_maths_stuff <= 5:
         computer_action = "paper"
        else:
-        if complex_maths_stuff >= 3 and complex_maths_stuff <= 8:
+        if complex_maths_stuff >= 4 and complex_maths_stuff <= 8:
          computer_action = "rock"
         else:
          if complex_maths_stuff >= 7 and complex_maths_stuff <=10:
            computer_action = "scissors"
-     if scissors_total >= rock_total and paper_total:
-      if rock_total >= paper_total and scissors_total:
-       if complex_maths_stuff >= 0 and complex_maths_stuff <= 4:
+     if scissors_total >= rock_total and paper_total: # Most Likely Scissors
+       if complex_maths_stuff >= 0 and complex_maths_stuff <= 5:
         computer_action = "scissors"
        else:
-        if complex_maths_stuff >= 3 and complex_maths_stuff <= 8:
+        if complex_maths_stuff >= 4 and complex_maths_stuff <= 8:
          computer_action = "paper"
         else:
          if complex_maths_stuff >= 7 and complex_maths_stuff <=10:
