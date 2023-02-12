@@ -19,4 +19,4 @@ Removed the final_stretch variable, It's never actually used so I just removed i
 A bug was fixed where it was almost impossible for the strategy bot to use scissors
 
 
-A bug was fixed where the strategy bot's values were mostly even (that was not intended)
+A bug was fixed where the strategy bot's algorhythm made most of the decisions equal (that was not intended)
